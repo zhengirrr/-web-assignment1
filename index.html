@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    section { border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin: 20px 0; }
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 0 auto; }
+</style>
+    <!-- Step 0: page title -->
+    <title>My First Webpage</title>
+</head>
+<body>
+ 
+    <!-- ========== PART 1. INTRODUCTION TO HTML ========== -->
+ 
+    <!-- Step 1: Headings and paragraph -->
+    <h1>Assylkhan Zhannura</h1>
+    <h2>Course: Web Technologies Front-End Development, Group: MT-2501</h2>
+    <h3>About Me</h3>
+    <p>
+        Hi! I am a second-year student at Astana IT University. I love to draw anime boys.
+    </p>
+    <hr>
+ 
+    <!-- Step 2: Lists -->
+    <h3>My Hobbies</h3>
+    <ol>
+        <li>Drawing illustrations</li>
+        <li>Playing games</li>
+        <li>Reading</li>
+    </ol>
+ 
+    <h3>My Favorite Websites</h3>
+    <ul>
+        <li>Artfight</li>
+        <li>AnimeGo</li>
+        <li>W3Schools</li>
+    </ul>
+ 
+    <!-- Step 3: Image and links -->
+    <h3>My Photo</h3>
+    <img src="images/photo_5276331933065486649_y (1).jpg" alt="my photo" width="200">
+ 
+    <h3>Useful Links</h3>
+    <p>
+        <a href="https://artfight.net/~perusdrawings" target="_blank">Artfight</a> |
+        <a href="https://anime-go.org/anime/deystvuy-nakamura-146?ysclid=mtzrpdw8mo354412816" target="_blank">AnimeGo</a> |
+        <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+    </p>
+    <hr>
+ 
+    <!-- Step 4: Button -->
+    <button type="button">Click Me</button>
+ 
+    <!-- ========== PART 2. INTERMEDIATE HTML ========== -->
+ 
+    <!-- Step 5: Table with class schedule -->
+    <h3>My Weekly Schedule</h3>
+    <table border="1" cellpadding="6">
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Web Technologies</td>
+                <td>Monday</td>
+                <td>10:00 - 11:50</td>
+            </tr>
+            <tr>
+                <td>Operating System</td>
+                <td>Tuesday</td>
+                <td>12:00 - 13:50</td>
+            </tr>
+            <tr>
+                <td>Cinematography</td>
+                <td>Thursday</td>
+                <td>09:00 - 10:50</td>
+            </tr>
+        </tbody>
+    </table>
+ 
+    <!-- Step 6 (optional): Two-column layout with a table -->
+    <h3>Two-Column Layout</h3>
+    <table border="1" cellpadding="10" width="100%">
+        <tr>
+            <!-- Left column: menu -->
+            <td width="25%" valign="top">
+                <strong>Menu</strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </td>
+            <!-- Right column: main content -->
+            <td valign="top">
+                <strong>Main Content</strong>
+                <p>A future young director who wrote the plot himself and shot his own film, in which he allowed the actors to be themselves and filmed everything with cinematic precision, paying close attention to the details. He really loves the details that not all viewers notice. Let’s call our director Hildo; he’s very funny, does his work with heart, sometimes makes mistakes, but never gives up. He’s very cheerful, likes to share and communicate directly with the actors, and even has many actor friends with whom he gets along very well.</p>
+            </td>
+        </tr>
+    </table>
+    <hr>
+ 
+    <!-- Step 7: Emojis (HTML entity codes) -->
+    <h3>My Mood Today</h3>
+    <p>
+        My mood today is very good also thanks for visiting my page &#128512;, love you bye &#10084;&#65039;
+    </p>
+ 
+    <!-- Step 8: Form -->
+    <h3>Contact Form</h3>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+ 
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+ 
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color">
+        <br><br>
+ 
+        <button type="submit">Submit</button>
+    </form>
+ 
+</body>
+</html>
